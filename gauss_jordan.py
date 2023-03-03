@@ -4,7 +4,10 @@ import numpy as np
 
 def gauss_jordan(A, b):
 
-    """Solves the linear system Ax = b using Gauss-Jordan elimination.
+    """
+        Solves the linear system Ax = b using Gauss-Jordan elimination.
+        Pre: A is a square matrix, b is a column vector
+        Post: Returns the solution to the linear system Ax = b
     """
 
     # Combine A and b into a single matrix
@@ -23,5 +26,3 @@ def gauss_jordan(A, b):
     x = Ab[:, -1]
 
     return x
-
-# gil el que lee
