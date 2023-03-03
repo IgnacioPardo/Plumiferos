@@ -25,3 +25,5 @@ def gauss_jordan(A, b):
     return x
 
 # gil el que lee
+
+#pre:  .....
