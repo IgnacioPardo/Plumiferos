@@ -23,3 +23,5 @@ def gauss_jordan(A, b):
     x = Ab[:, -1]
 
     return x
+
+# gil el que lee
